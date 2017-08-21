@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<title>No more whoops</title>
+	</head>
+	<body>
+		<h1>Don't you worry...</h1>
+		<form method="post" action="/">
+			<button>Get a happy message</button>
+		</form>
+		{{#message}}
+			{{ message }}
+		{{/message}}
+		{{#always}}
+			{{ always }}
+		{{/always}}
+	</body>
+</html>
